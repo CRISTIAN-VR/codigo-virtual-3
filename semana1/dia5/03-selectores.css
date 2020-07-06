@@ -1,0 +1,6 @@
+/*selector de etiquetas*/
+/*todos los h2 de la pagina*/
+label{ color:red;}
+h2, h1 { color:purple;}
+ul, li{ color:palevioletred;}
+ol > li, input{ color:brown;}

@@ -1,0 +1,25 @@
+*{
+    /*funciones de reset*/
+    margin: 0;
+    box-sizing: border-box;/*sirve para q cuando algun elemento se le coloque padding y/o borde, estos no afecten en el ancho establecido para dicho elemento*/
+}
+
+html,
+body{
+    height: 100%;
+}
+body{
+    background: -webkit-linear-gradient(top, #000428,#004e92);
+}
+
+.section1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid orange;
+    background: -webkit-linear-gradient(top, #397d5b,#c0f);
+}
+.section2{
+    height: 200px;
+    width: 200px;
+    background: -webkit-linear-gradient(center, circle #397d5a,#cd3f);
+}

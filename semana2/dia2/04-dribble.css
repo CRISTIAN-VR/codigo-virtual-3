@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.formulario{
+    width: 600px;
+    margin: 50px auto 0 auto;
+    background-color: violet;
+    box-shadow: #4444 0px 0px 20px;
+    border-radius: 10px;
+
+}
+.formulario_input{
+    width: 100%;
+    border: none;
+    /* outline: es un 2do borde pero no afecta a los margenes externos*/
+    outline: none;
+    border-bottom: 1px solid #eee;
+    padding: 8px 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-bottom: 7px;
+
+}

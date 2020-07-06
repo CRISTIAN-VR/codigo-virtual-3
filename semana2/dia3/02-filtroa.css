@@ -1,0 +1,24 @@
+*{
+MARGIN:0;
+box-sizing:border-box;
+}
+.section2{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    cursor: pointer;
+    /* filter:blur(1px)*/
+
+}
+.section1{
+    width: 200px;
+    height: 200px;
+}
+.section1 img{
+    width: 200px;
+    filter: grayscale(1);
+}
+/*hover hace referencia al cursor sobre una imagen*/
+.section1 img:hover{
+    filter: none;
+}

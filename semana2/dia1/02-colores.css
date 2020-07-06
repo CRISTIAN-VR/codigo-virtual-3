@@ -1,0 +1,35 @@
+body {
+    background: #666;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rojo{
+    color: red
+}
+.amarillo{
+    color: yellow;
+}
+.naranja{
+    color: #444;
+}
+.azulhex{
+    color: #0000ff;
+}
+.RosadoRGB{
+    color: rgb(250,190,190)
+}
+.AmarilloRGB{
+    color: rgb(255, 255, 0)
+}
+.semitransparente{
+    background: rgba(143, 189, 79, 0.5);
+}
+.HSL{
+    background-color: hsl(270, 100%, 50%)
+}
+.HSL2{
+    background-color: hsl(270, 100%, 40%)
+}
+.HSL3{
+    background-color: hsl(270, 100%, 30%)
+}

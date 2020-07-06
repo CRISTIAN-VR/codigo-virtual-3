@@ -1,0 +1,54 @@
+*{
+margin:0;
+box-sizing:border-box:BORDER-BOX;
+padding: 0;
+}
+:root {
+    --color-primario: #e84d3b
+}
+
+body {
+    background-color: #eee;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+}
+.card_imagen {
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.card_imagen img {
+    height: 100%;
+    transform: translate(0, -60px);
+
+}
+.card_photos {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--color-primario);
+    color: white;
+    padding: 8px 11px;
+    border-radius: 1px;
+}
+.card_fecha {
+    position: absolute;
+    width: 40px;
+    height: 401px;
+    background-color: var(--color-primario);
+    color: white;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.8px;
+    padding-top: 7px;
+}
+.card_fecha span {
+    font-size:  0.6rem;
+
+}

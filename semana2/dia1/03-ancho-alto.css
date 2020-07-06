@@ -1,0 +1,55 @@
+*{
+    /*funciones de reset*/
+    margin: 0;
+    box-sizing: border-box;/*sirve para q cuando algun elemento se le coloque padding y/o borde, estos no afecten en el ancho establecido para dicho elemento*/
+}
+
+body{
+    background-color: #444;
+    color: white;
+}
+section{
+    width: 500px;
+    background-color: teal;
+}
+.ancho-200{
+    width: 200;/*significa q va a medir 200px*/
+    background-color: #222;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.noticias{
+    margin:20px
+}
+.imagenes{
+    margin-top: 20px;
+    padding: 30px;
+}
+.articulos{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border: 1px solid yellow;
+}
+.articulos p {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #888;
+    margin-top: 50px;
+}
+/* cuando yo coloco margen en 10px 
+margin a todos los lados de 10px*/
+
+/*margen superior e inferior 10px y margen costados 20px
+margin 10px 20px*/
+
+/* en sentido de las manecillas del reloj
+superior 5px
+derecha 10px
+inferior 15px
+izquierda 20px
+margin 5px 10px 15px 20px
+
