@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1FE37F;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 1000px;
+    width: 70%;
+    height: 200px;
+	margin: auto auto;
+}
+.lista {
+    font-size: 1.0rem;
+    font-weight: 10PX;
+    
+
+}
+.rojo {
+    font-size: 1.0rem;
+    font-weight: 10PX;
+    color: red;
+}
+.rojo1 {
+    font-size: 3.5rem;
+    font-weight: 20PX;
+    color: red;
+
+}
+
+.contenedor__cards {
+    margin: 70px 0;
+
+}
+.contenedor_cod{
+    font-size: 0.9rem;
+    font-weight: 5PX;
+    color: #a5a5a5;
+
+}
+.selec {
+    font-size: 0.9rem;
+    font-weight: 5PX;
+    color: #a5a5a5;
+
+}
+
+
+.card {
+	background: #FFF;
+	border-radius: 3px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.card__thumbnail {
+	width: 650px;
+	height: 600px;
+	margin-right: 100px;
+	border-radius: 1px;
+	overflow: hidden;
+    display: inline-block;
+    background-color: #BDEC61;
+}
+
+.card__img {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    right: 50px;
+    
+    
+    top: 10px;
+    z-index: 50%;
+    
+}
+
+.card__titulo {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.card__enlace {
+	color: #000;
+}
+
+.card__extracto {
+	font-size: 10PX;
+	color: #6D6D6D;
+	margin-top: 20px;
+}
+
+.boton {
+	border: none;
+	min-width: 180px;
+	height: 50px;
+	padding: 0 30px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	border-radius: 10px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #FC3F40;
+	transition: .3s ease all;
+}
+
+.boton__texto {
+	font-weight: 600;
+}
+
+.boton:hover {
+	background: #9c1301;
+	text-decoration: none;
+}
+
+.boton--absolute {
+	position: absolute;
+	right: 20px;
+	bottom: -25px;
+}
+
+.boton--verde {
+	background: #7BA771;
+}
+
+.boton--verde:hover {
+	background: #437837;
+}
+
+.frase {
+	text-align: center;
+	margin: 70px 0;
+}
+
+.frase__texto {
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
