@@ -30,3 +30,6 @@ console.log(seccionesArreglo);
 seccionesArreglo.forEach((seccion) => {
   console.log(seccion);
 });
+
+let navegacion = document.querySelector("#navegacion");
+console.log(navegacion);
